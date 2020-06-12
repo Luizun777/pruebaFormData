@@ -1,0 +1,9 @@
+<p>subir-archivo works!</p>
+<div class="img-fondo" (cargarArchivo)="subirFoto($event, 'drop')">
+  <label class="custom-file-upload">
+    <input type="file" (change)="subirFoto($event)" />
+    Agregar
+  </label>
+</div>
+
+<button (click)="subir()">Enviar</button>
